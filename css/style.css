@@ -18,12 +18,47 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg, rgb(152, 207, 195), rgb(86, 181, 184)); */
 }
 
+.button-head:hover {
+    color:#488bca;
+}
+
+.about-site {
+    background: #1e2025;
+    padding-bottom: 60px;
+    padding-top: 90px;
+}
+
+.text-about {
+    color: white;
+    padding-top: 40px;
+    padding-left: 650px;
+}
+
 .brandColor {
     color: #495eff;
 }
 
-.navbar-brand img {
+.brandImage img {
     width: 80px;
+}
+
+.brandFooter {
+    background: #1e2025;
+    margin: 0;
+}
+
+.yt {
+    padding: 900px;
+    background: #1e2025;
+    color: #1e2025;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background: #488bca;
 }
 
 /* .hat {
