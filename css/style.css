@@ -15,6 +15,25 @@ body::-webkit-scrollbar-thumb {
     background: #495eff;
 }
 
+.present-cheat {
+    padding-left: 647px;
+    background-color: #1e2025;
+    /* box-sizing: border-box; */
+}
+
+.frame {
+    width: 1150px;
+    height: 430px;
+    background: #101011;
+    border-radius: 10px;
+}
+
+.about-cheat {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
 .button-head:hover {
     color:#488bca;
 }
@@ -45,7 +64,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .yt {
-    padding: 900px;
+    padding: 190px;
     background: #1e2025;
     color: #1e2025;
 }
