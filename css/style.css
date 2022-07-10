@@ -15,10 +15,19 @@ body::-webkit-scrollbar-thumb {
     background: #495eff;
 }
 
-.present-cheat {
+@media (max-width: 700px) {
+    .about-cheat {
+        text-align: center;
+        display: block;
+    }
+    .text-end {
+        padding-bottom: 15px;
+    }
+}
+
+.preasent-cheat {
     padding-left: 647px;
     background-color: #1e2025;
-    /* box-sizing: border-box; */
 }
 
 .frame {
@@ -47,7 +56,7 @@ body::-webkit-scrollbar-thumb {
 .text-about {
     color: white;
     padding-top: 40px;
-    padding-left: 650px;
+    padding-left: 655px;
 }
 
 .brandColor {
@@ -60,7 +69,7 @@ body::-webkit-scrollbar-thumb {
 
 .brandFooter {
     background: #1e2025;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .yt {
@@ -75,4 +84,18 @@ body::-webkit-scrollbar-thumb {
     left: 0px;
     width: 100%;
     background: #488bca;
+}
+
+.about-market {
+    background: #1e2025;
+    color: white;
+    padding-top: 130px;
+    padding-left: 655px;
+}
+
+.about-forum {
+    background: #1e2025;
+    color: white;
+    padding-top: 130px;
+    padding-left: 655px;
 }
