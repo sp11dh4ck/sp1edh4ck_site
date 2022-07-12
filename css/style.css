@@ -99,3 +99,9 @@ body::-webkit-scrollbar-thumb {
     padding-top: 130px;
     padding-left: 655px;
 }
+
+.te {
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
