@@ -5,6 +5,7 @@ body, html {
 
 body::-webkit-scrollbar {
     width: 7px;
+    height: 7px;
 }
 
 body::-webkit-scrollbar-track {
@@ -108,9 +109,33 @@ body::-webkit-scrollbar-thumb {
 }
 
 .avatar-team img {
+    margin-top: 20px;
     width: 100px;
     height: 100px;
     border-radius: 20px;
+}
+
+/* .ter {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 20px;
+    background: #2E2F45;
+    display: table;
+    color: #9185ff;
+    border-radius: 5px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;
+} */
+
+.ter {
+    /* font-size: 2em; */
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    padding: 0.3em 0.6em ;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    border-image-slice: 1;
 }
 
 /* .frame-team {
