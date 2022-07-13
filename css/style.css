@@ -146,6 +146,27 @@ body::-webkit-scrollbar-thumb {
     width: 120px;
     display: block;
     margin: 0 auto;
+}
+
+.user-agreement {
+    padding-left: 650px;
+    padding-top: 40px;
+    background: #ffffff;
+}
+
+.frame-rules {
+    width: 1285px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background: #e6e6e6;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.rules {
+    padding-left: 10px;
+    color: black;
+}
 
 /* .frame-team {
     width: 100px;
