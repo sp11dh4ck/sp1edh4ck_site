@@ -153,9 +153,7 @@ body::-webkit-scrollbar-thumb {
 
 .user-agreement {
     background: #ffffff;
-    padding-left: 650px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 50px 0px 50px 0px;
 }
 
 .frame-rules {
@@ -182,6 +180,9 @@ body::-webkit-scrollbar-thumb {
     .frame {
         width: 1085px;
     }
+    .frame-rules {
+        width: auto;
+    }
 }
 
 /* ? PC MIN ? */
@@ -199,6 +200,9 @@ body::-webkit-scrollbar-thumb {
     }
     .frame {
         width: 900px;
+    }
+    .frame-rules {
+        width: auto;
     }
 }
 
@@ -222,6 +226,19 @@ body::-webkit-scrollbar-thumb {
     }
     .frame {
         width: 677px;
+    }
+    .rules {
+        width: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    .user-agreement {
+        font-size: 12px;
+    }
+    .user-agreement h5 {
+        font-size: 13px;
+    }
+    .user-agreement hr {
+        height: 5px;
     }
 }
 
@@ -277,6 +294,9 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
     .frame {
+        width: auto;
+    }
+    .frame-rules {
         width: auto;
     }
 }
