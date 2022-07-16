@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
 
 .text-about {
     color: black;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .brandColor {
@@ -178,11 +178,18 @@ body::-webkit-scrollbar-thumb {
 	height: 7px;
 }
 
+.tyu {
+    height: 70px;
+}
+
 /* ? PC ? */
 @media (max-width: 1199px) {
     .text-about {
         padding-top: 90px;
         font-size: 16px;
+    }
+    .box {
+        height: 150px;
     }
 }
 
@@ -190,6 +197,9 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 991.98px) {
     .text-about {
         padding-top: 190px;
+    }
+    .box {
+        height: 265px;
     }
 }
 
@@ -221,6 +231,7 @@ body::-webkit-scrollbar-thumb {
     }
     .box {
         font-size: 14px;
+        height: 115px;
     }
 }
 
@@ -243,7 +254,7 @@ body::-webkit-scrollbar-thumb {
 /* ? HIGH SMALL DISPLAY ? */
 @media (max-width: 363.98px) {
     .text-about {
-        padding-top: 90px;
+        padding-top: 80px;
     }
     .text-about h4 {
         font-size: 20px;
@@ -253,6 +264,9 @@ body::-webkit-scrollbar-thumb {
     }
     .about-cheat h5 {
         font-size: 20px;
+    }
+    .box {
+        height: 153px;
     }
 }
 /* .frame-team {
