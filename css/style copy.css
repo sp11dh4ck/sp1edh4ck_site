@@ -1,0 +1,400 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class], ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body, html {
+    background: #ffffff;
+    font: bold 20px 'Acrom', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #495eff;
+}
+
+@media (max-width: 700px) {
+    .about-cheat {
+        text-align: center;
+        display: block;
+    }
+    .text-end {
+        padding-bottom: 15px;
+    }
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="container"] {
+    max-width: 1250px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+/* ? PC ? */
+@media (max-width: 1057px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+/* ? TABLET ? */
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+/* ? MOBILE ? */
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+/* ? MOBILE SMALL ? */
+@media (max-width: 479.98px) {}
+
+/* !--------------------! */
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    min-height: 114px;
+    align-items: center;
+}
+.header__logo {
+    position: relative;
+    z-index: 50;
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.header__button {
+    position: relative;
+    z-index: 50;
+    flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 40px 0px 0px;
+}
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+.menu__list a {
+    text-decoration: none;
+}
+.menu__link {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1.2;
+    color: black;
+    letter-spacing: 1px;
+}
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 991.98px) {
+    .header__container{
+        min-height: 80px;
+    }
+    .header__button {
+        flex: 0 0 152px;
+    }
+    .menu__list {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .menu__body {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        padding: 90px 15px 30px 15px;
+        transition: left 0.3s ease 0s;
+    }
+    .menu__body:target {
+        left: 0;
+    }
+    .header__button .button {
+        padding: 12px 20px;
+        font-size: 9px;
+    }
+    .menu__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__item {
+        margin: 0px 0px 15px 0px;
+    }
+    .menu__item:last-child {
+        margin-bottom: 0;
+    }
+    .menu__link {
+        color: black;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preasent-cheat {
+    padding-left: 650px;
+    background: #ffffff;
+}
+
+.frame {
+    width: 1285px;
+    height: 430px;
+    background: #e6e6e6;
+    border-radius: 10px;
+}
+
+.about-cheat {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.button-head:hover {
+    color:#488bca;
+}
+
+.about-site {
+    background: #ffffff;
+    padding-bottom: 60px;
+    padding-top: 90px;
+}
+
+.text-about {
+    color: black;
+    padding-top: 40px;
+    padding-left: 655px;
+}
+
+.brandColor {
+    color: #006fff;
+}
+
+.brandImage img {
+    width: 80px;
+}
+
+.brandFooter {
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+.yt {
+    padding: 190px;
+    background: #ffffff;
+    color: black;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background: #488bca;
+    background-color: #e6e6e6;
+}
+
+.about-market {
+    background: #ffffff;
+    color: black;
+    padding-top: 130px;
+    padding-left: 655px;
+}
+
+.about-forum {
+    background: #ffffff;
+    color: black;
+    padding-top: 130px;
+    padding-left: 655px;
+}
+
+.te {
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.avatar-team img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+/* .ter {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 20px;
+    background: #2E2F45;
+    display: table;
+    color: #9185ff;
+    border-radius: 5px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;
+} */
+
+.ter {
+    /* font-size: 2em;
+    padding: 0.3em 0.6em;
+    border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%); */
+    background: linear-gradient(135deg, #cc00ff 20%, #0400ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    border: 3px solid transparent;
+    border-image-slice: 1;
+}
+
+.frame-team img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.imageSing {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.user-agreement {
+    padding-left: 650px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #ffffff;
+}
+
+.frame-rules {
+    width: 1285px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background: #e6e6e6;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.rules {
+    padding-left: 10px;
+    color: black;
+}
+
+.user-agreement hr {
+	height: 7px;
+	background-color: black;
+}
+
+
+/* .frame-team {
+    width: 100px;
+    height: 10px;
+    background: #101011;
+    border-radius: 10px;
+} */
+

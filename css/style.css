@@ -26,22 +26,27 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 .preasent-cheat {
-    padding-left: 650px;
     background: #ffffff;
+    padding-left: 20px;
 }
 
 .frame {
-    width: 1285px;
-    height: 430px;
     background: #e6e6e6;
     border-radius: 10px;
 }
 
 .about-cheat {
+    color: black;
     padding-top: 10px;
     padding-left: 10px;
-    color: black;
 }
 
 .button-head:hover {
@@ -52,12 +57,12 @@ body::-webkit-scrollbar-thumb {
     background: #ffffff;
     padding-bottom: 60px;
     padding-top: 90px;
+    padding-left: 20px;
 }
 
 .text-about {
     color: black;
     padding-top: 40px;
-    padding-left: 655px;
 }
 
 .brandColor {
@@ -74,18 +79,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .yt {
-    padding: 190px;
     background: #ffffff;
+    padding: 190px;
     color: black;
 }
 
 .box {
+    background: #488bca;
+    background-color: #e6e6e6;
     position: fixed;
     top: 0;
     left: 0px;
     width: 100%;
-    background: #488bca;
-    background-color: #e6e6e6;
 }
 
 .about-market {
@@ -149,29 +154,41 @@ body::-webkit-scrollbar-thumb {
 }
 
 .user-agreement {
+    background: #ffffff;
     padding-left: 650px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background: #ffffff;
 }
 
 .frame-rules {
+    background: #e6e6e6;
     width: 1285px;
     padding-top: 20px;
     padding-bottom: 15px;
-    background: #e6e6e6;
     border-radius: 10px;
     line-height: 1.5;
 }
 
 .rules {
-    padding-left: 10px;
     color: black;
+    padding-left: 10px;
 }
 
 .user-agreement hr {
-	height: 7px;
 	background-color: black;
+	height: 7px;
+}
+
+@media (max-width: 1199px) {
+    .text-about {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .text-about {
+        padding-top: 190px;
+    }
 }
 
 
