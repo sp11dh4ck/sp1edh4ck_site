@@ -45,8 +45,7 @@ body::-webkit-scrollbar-thumb {
 
 .about-cheat {
     color: black;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .button-head:hover {
@@ -197,7 +196,7 @@ body::-webkit-scrollbar-thumb {
 /* ? MOBILE ? */
 @media (max-width: 767.98px) {
     .text-about {
-        padding-top: 210px;
+        padding-top: 60px;
     }
     .text-about h4 {
         font-size: 20px;
@@ -208,12 +207,43 @@ body::-webkit-scrollbar-thumb {
     .about-cheat h5 {
         font-size: 20px;
     }
+    .brandImage img {
+        display: none;
+    }
+    .search-cl input {
+        display: none;
+    }
+    .text-end button {
+        font-size: 12px;
+    }
+    .text-end input {
+        font-size: 12px;
+    }
+    .box {
+        font-size: 14px;
+    }
 }
 
-/* ? MOBILE SMALL ? */
+/* ? MOBILE SMALL ?
 @media (max-width: 459.98px) {
     .text-about {
-        padding-top: 270px;
+        padding-top: 60px;
+    }
+    .text-about h4 {
+        font-size: 20px;
+    }
+    .about-cheat {
+        font-size: 16px;
+    }
+    .about-cheat h5 {
+        font-size: 20px;
+    }
+} */
+
+/* ? HIGH SMALL DISPLAY ? */
+@media (max-width: 363.98px) {
+    .text-about {
+        padding-top: 90px;
     }
     .text-about h4 {
         font-size: 20px;
