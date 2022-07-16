@@ -299,6 +299,9 @@ body::-webkit-scrollbar-thumb {
     .frame-rules {
         width: auto;
     }
+    .rew {
+        padding-top: 100px;
+    }
 }
 
 /* ? HIGH SMALL DISPLAY ? */
@@ -317,5 +320,8 @@ body::-webkit-scrollbar-thumb {
     }
     .brandFooter footer {
         font-size: 16px;
+    }
+    .rew {
+        padding-top: 170px;
     }
 }

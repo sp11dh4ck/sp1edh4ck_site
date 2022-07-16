@@ -15,59 +15,62 @@
 </head>
 
 <body class="te">
-    <form class="needs-validation" novalidate>
-        <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html"><img src="images/main img for site.png" class="imageSing"></a><br>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="inputEmail4">Почта</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Почта" required>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="inputPassword4">Пароль</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Пароль" required>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="inputPassword4">Подтвердить пароль</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Подтвердить пароль" required>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
-                <label for="validationCustom01">Имя</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" required>
-            </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationCustom02">Фамилия</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Фамилия" required>
-            </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationCustomUsername">Ник</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+    <div class="wrapper">
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html"><img src="images/main img for site.png" class="imageSing"></a><br>
+                <div class="form-row rew">
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">Почта</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Почта" required>
                     </div>
-                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ник" aria-describedby="inputGroupPrepend" required>
+                    <div class="form-group col-md-4">
+                        <label for="inputPassword4">Пароль</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Пароль" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputPassword4">Подтвердить пароль</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Подтвердить пароль" required>
+                    </div>
                 </div>
-            </div>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Имя</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Фамилия</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Фамилия" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Ник</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ник" aria-describedby="inputGroupPrepend" required>
+                        </div>
+                    </div>
+                </div>
+                <small id="emailHelp" class="form-text text-muted">Ваши имя и фамилия не будут отображаться, они потребуются <strong>только</strong> при восстановлении аккаунта!</small>
+                <br>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                    <label class="custom-control-label" for="customControlValidation1">
+                        Я принимаю <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/politic.html" target="_blank">пользовательское соглашение</a> и <a href="">правила сервиса</a>
+                    </label>
+                    <div class="invalid-feedback">Соглашение с правила обязательны!</div>
+                </div>
+                <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
+                <script>
+                    function register(){
+                        window.location="sing-in.html";
+                    }
+                </script>
+            </form>
         </div>
-        <small id="emailHelp" class="form-text text-muted">Ваши имя и фамилия не будут отображаться, они потребуются <strong>только</strong> при восстановлении аккаунта!</small>
-        <br>
-        <div class="custom-control custom-checkbox mb-3">
-            <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-            <label class="custom-control-label" for="customControlValidation1">
-                Я принимаю <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/politic.html" target="_blank">пользовательское соглашение</a> и <a href="">правила сервиса</a>
-            </label>
-            <div class="invalid-feedback">Соглашение с правила обязательны!</div>
-        </div>
-        <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
-        <script>
-            function register(){
-                window.location="sing-in.html";
-            }
-        </script>
-    </form>
 
-    <script>
+        <script>
         (function() {
             'use strict';
             window.addEventListener('load', function() {
@@ -83,6 +86,7 @@
                 });
             }, false);
         })();
-    </script>
+        </script>
+    </div>
 </body>
 </html>
