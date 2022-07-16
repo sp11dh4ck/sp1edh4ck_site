@@ -179,19 +179,52 @@ body::-webkit-scrollbar-thumb {
 	height: 7px;
 }
 
+/* ? PC ? */
 @media (max-width: 1199px) {
     .text-about {
         padding-top: 90px;
+        font-size: 16px;
     }
 }
 
+/* ? TABLET ? */
 @media (max-width: 991.98px) {
     .text-about {
         padding-top: 190px;
     }
 }
 
+/* ? MOBILE ? */
+@media (max-width: 767.98px) {
+    .text-about {
+        padding-top: 210px;
+    }
+    .text-about h4 {
+        font-size: 20px;
+    }
+    .about-cheat {
+        font-size: 16px;
+    }
+    .about-cheat h5 {
+        font-size: 20px;
+    }
+}
 
+/* ? MOBILE SMALL ? */
+@media (max-width: 459.98px) {
+    .text-about {
+        padding-top: 270px;
+    }
+    .text-about h4 {
+        font-size: 20px;
+    }
+    .about-cheat {
+        font-size: 16px;
+    }
+    .about-cheat h5 {
+        font-size: 20px;
+    }
+}
 /* .frame-team {
     width: 100px;
     height: 10px;
