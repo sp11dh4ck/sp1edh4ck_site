@@ -14,14 +14,15 @@
 </head>
 
 <body>
-	<header class="p-1 bg-muted text-black box">
+	<div class="wrapper">
+		<header class="p-1 bg-muted text-white box">
 		<div class="container">
-			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end">
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end tyu">
 				<a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none brandImage">
 					<img src="images/main img for site.png">
 				</a>
 			
-				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+				<ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
 					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html" class="nav-link px-2 text-black">Главная</a></li>
 					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/forum.html" class="nav-link px-2 text-black">Форум</a></li>
 					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/market.html" class="nav-link px-2 text-muted">Маркет</a></li>
@@ -29,7 +30,7 @@
 			  		<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/faq.html" class="nav-link px-2 text-black">FAQ</a></li>
 				</ul>
 			
-				<form class="col-12 col-lg-2 mb-3 mb-lg-0 me-lg-4" role="search">
+				<form class="col-12 col-lg-auto mb-lg-0 me-lg-4 search-cl" role="search">
 			  		<input type="search" class="form-control form-control-light text-white bg-light" placeholder="Поиск..." aria-label="Search">
 				</form>
 		
@@ -41,7 +42,7 @@
 						}
 					</script>
 
-			  		<button onclick="register()" type="button" class="btn btn-outline-dark">Регистрация</button>
+			  		<button onclick="register()" type="button" class="btn btn-outline-dark me-2">Регистрация</button>
 					<script>
 						function register(){
 							window.location="sing-up.html";
@@ -50,21 +51,23 @@
 				</div>
 		  	</div>
 		</div>
-	</header>
+		</header>
 
-	<div class="about-market">
+		<div class="container">
+			<div class="about-market">
 		<h4>Маркет <span class="brandColor">speedhack</span></h4>
 		<br>
 		Здесь вы купите всё, что вам нужно!
+			</div>
+		</div>
+
+		<div class="yt" style="padding-top: 770px;"></div>
+
+		<div class="brandFooter">
+			<footer class="bg-light py-3 mb-3">
+				<p class="text-center text-black">&copy; 2022 Company, Inc</p>
+			</footer>
+		</div>
 	</div>
-
-	<div class="yt" style="padding-top: 770px;"></div>
-
-	<div class="brandFooter">
-		<footer class="bg-light py-3 mb-3">
-			<p class="text-center text-black">&copy; 2022 Company, Inc</p>
-		</footer>
-	</div>
-
 </body>
 </html>

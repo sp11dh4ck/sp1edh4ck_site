@@ -16,17 +16,8 @@ body::-webkit-scrollbar-thumb {
     background: #495eff;
 }
 
-@media (max-width: 700px) {
-    .about-cheat {
-        text-align: center;
-        display: block;
-    }
-    .text-end {
-        padding-bottom: 15px;
-    }
-}
-
 .wrapper {
+    background: #ffffff;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -44,6 +35,11 @@ body::-webkit-scrollbar-thumb {
     width: 1265px;
 }
 
+.about-site {
+    background: #ffffff;
+    padding: 90px 20px 50px 20px;
+}
+
 .about-cheat {
     color: black;
     padding: 10px 10px 10px 10px;
@@ -53,13 +49,8 @@ body::-webkit-scrollbar-thumb {
     color:#488bca;
 }
 
-.about-site {
-    background: #ffffff;
-    padding: 90px 20px 20px 20px;
-}
-
 .text-about {
-    color: black;
+    color: rgb(0, 0, 0);
     padding-top: 20px;
 }
 
@@ -86,23 +77,28 @@ body::-webkit-scrollbar-thumb {
     background: #488bca;
     background-color: #e6e6e6;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0px;
     width: 100%;
 }
 
-.about-market {
-    background: #ffffff;
-    color: black;
-    padding-top: 130px;
-    padding-left: 655px;
-}
-
 .about-forum {
     background: #ffffff;
-    color: black;
-    padding-top: 130px;
-    padding-left: 655px;
+    padding: 90px 20px 50px 20px;
+}
+
+.about-market {
+    background: #ffffff;
+    padding: 90px 20px 50px 20px;
+}
+
+.about-team {
+    background: #ffffff;
+    padding: 120px 20px 50px 20px;
+}
+
+.frame-team {
+    padding-top: 40px;
 }
 
 .te {
@@ -145,6 +141,10 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.frame-team-first img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
 .imageSing {
     width: 120px;
     display: block;
@@ -177,20 +177,21 @@ body::-webkit-scrollbar-thumb {
 	height: 7px;
 }
 
-.tyu {
-    height: 70px;
-}
-
+/* ? PC ? */
 @media (max-width: 1399.98px) {
     .frame {
         width: 1085px;
     }
 }
 
-/* ? PC ? */
-@media (max-width: 1199px) {
+/* ? PC MIN ? */
+@media (max-width: 1199.98px) {
     .text-about {
         padding-top: 90px;
+        font-size: 16px;
+    }
+    .frame-team-first {
+        padding-top: 45px;
         font-size: 16px;
     }
     .box {
@@ -205,6 +206,10 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 991.98px) {
     .text-about {
         padding-top: 115px;
+    }
+    .frame-team-first {
+        padding-top: 85px;
+        font-size: 16px;
     }
     .box {
         height: 175px;
@@ -224,6 +229,17 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 767.98px) {
     .text-about {
         padding-top: 35px;
+    }
+    .frame-team-first {
+        padding: 0;
+        font-size: 14px;
+    }
+    .about-team h5 {
+        font-size: 16px;
+    }
+    .about-team img {
+        width: 70px;
+        height: 70px;
     }
     .text-about h4 {
         font-size: 20px;
@@ -265,22 +281,6 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-/* ? MOBILE SMALL ?
-@media (max-width: 459.98px) {
-    .text-about {
-        padding-top: 60px;
-    }
-    .text-about h4 {
-        font-size: 20px;
-    }
-    .about-cheat {
-        font-size: 16px;
-    }
-    .about-cheat h5 {
-        font-size: 20px;
-    }
-} */
-
 /* ? HIGH SMALL DISPLAY ? */
 @media (max-width: 363.98px) {
     .text-about {
@@ -295,17 +295,7 @@ body::-webkit-scrollbar-thumb {
     .about-cheat h5 {
         font-size: 20px;
     }
-    .box {
-        height: 135px;
-    }
     .brandFooter footer {
         font-size: 16px;
     }
 }
-/* .frame-team {
-    width: 100px;
-    height: 10px;
-    background: #101011;
-    border-radius: 10px;
-} */
-
