@@ -181,6 +181,12 @@ body::-webkit-scrollbar-thumb {
     height: 70px;
 }
 
+@media (max-width: 1399.98px) {
+    .frame {
+        width: 1085px;
+    }
+}
+
 /* ? PC ? */
 @media (max-width: 1199px) {
     .text-about {
@@ -189,6 +195,9 @@ body::-webkit-scrollbar-thumb {
     }
     .box {
         height: 150px;
+    }
+    .frame {
+        width: 900px;
     }
 }
 
@@ -205,6 +214,9 @@ body::-webkit-scrollbar-thumb {
     }
     .brandImage img {
         display: none;
+    }
+    .frame {
+        width: 677px;
     }
 }
 
@@ -247,6 +259,9 @@ body::-webkit-scrollbar-thumb {
     }
     .brandFooter footer {
         font-size: 16px;
+    }
+    .frame {
+        width: auto;
     }
 }
 
