@@ -35,12 +35,13 @@ body::-webkit-scrollbar-thumb {
 
 .preasent-cheat {
     background: #ffffff;
-    padding-left: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .frame {
     background: #e6e6e6;
     border-radius: 10px;
+    width: 1265px;
 }
 
 .about-cheat {
@@ -54,9 +55,7 @@ body::-webkit-scrollbar-thumb {
 
 .about-site {
     background: #ffffff;
-    padding-bottom: 60px;
-    padding-top: 90px;
-    padding-left: 20px;
+    padding: 90px 20px 20px 20px;
 }
 
 .text-about {
@@ -79,7 +78,7 @@ body::-webkit-scrollbar-thumb {
 
 .yt {
     background: #ffffff;
-    padding: 190px;
+    padding: 215px;
     color: black;
 }
 
@@ -196,23 +195,30 @@ body::-webkit-scrollbar-thumb {
 /* ? TABLET ? */
 @media (max-width: 991.98px) {
     .text-about {
-        padding-top: 190px;
+        padding-top: 115px;
     }
     .box {
-        height: 265px;
+        height: 175px;
+    }
+    .search-cl input {
+        margin-bottom: 10px;
+    }
+    .brandImage img {
+        display: none;
     }
 }
 
 /* ? MOBILE ? */
 @media (max-width: 767.98px) {
     .text-about {
-        padding-top: 60px;
+        padding-top: 35px;
     }
     .text-about h4 {
         font-size: 20px;
     }
     .about-cheat {
         font-size: 16px;
+        text-align: center;
     }
     .about-cheat h5 {
         font-size: 20px;
@@ -231,7 +237,16 @@ body::-webkit-scrollbar-thumb {
     }
     .box {
         font-size: 14px;
-        height: 115px;
+        height: 95px;
+    }
+    .tyu ul {
+        margin: 0;
+    }
+    .yt {
+        padding: 0;
+    }
+    .brandFooter footer {
+        font-size: 16px;
     }
 }
 
@@ -266,7 +281,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 20px;
     }
     .box {
-        height: 153px;
+        height: 135px;
+    }
+    .brandFooter footer {
+        font-size: 16px;
     }
 }
 /* .frame-team {
