@@ -15,26 +15,29 @@
 </head>
 
 <body class="te">
-    <form class="needs-validation" novalidate>
-        <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html"><img src="images/main img for site.png" class="imageSing"></a><br>
-        <label for="inputEmail">Вход</label>
-        <div class="form-group">
-            <div class="form-group col-md-13">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Почта" required>
-            </div>
-            <div class="form-group col-md-13">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Пароль" required>
-                <small id="passwordHelp" class="form-text text-muted">
-                    <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/sing-up.html">Нет аккаунта?</a>
-                    <strong>|</strong>
-                    <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/account-recovery.html">Забыли пароль?</a>
-                </small>
-            </div>
+    <div class="wrapper">
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html"><img src="images/main img for site.png" class="imageSing"></a><br>
+                <label for="inputEmail">Вход</label>
+                <div class="form-group">
+                    <div class="form-group col-md-13">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Почта" required>
+                    </div>
+                    <div class="form-group col-md-13">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Пароль" required>
+                        <small id="passwordHelp" class="form-text text-muted">
+                            <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/sing-up.html">Нет аккаунта?</a>
+                            <strong>|</strong>
+                            <a href="https://sp11dh4ck.github.io/sp1edh4ck_site/account-recovery.html">Забыли пароль?</a>
+                        </small>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Войти</button>
+            </form>
         </div>
-        <button class="btn btn-primary" type="submit">Войти</button>
-    </form>
-    
-    <script>
+        
+        <script>
         (function() {
             'use strict';
             window.addEventListener('load', function() {
@@ -50,6 +53,7 @@
                 });
             }, false);
         })();
-    </script>
+        </script>
+    </div>
 </body>
 </html>

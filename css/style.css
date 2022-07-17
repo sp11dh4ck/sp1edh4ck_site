@@ -196,7 +196,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
     .box {
-        height: 150px;
+        height: auto;
     }
     .frame {
         width: 900px;
@@ -216,7 +216,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
     .box {
-        height: 175px;
+        height: auto;
     }
     .search-cl input {
         margin-bottom: 10px;
@@ -282,7 +282,7 @@ body::-webkit-scrollbar-thumb {
     }
     .box {
         font-size: 14px;
-        height: 95px;
+        height: auto;
     }
     .tyu ul {
         margin: 0;
@@ -307,21 +307,67 @@ body::-webkit-scrollbar-thumb {
 /* ? HIGH SMALL DISPLAY ? */
 @media (max-width: 363.98px) {
     .text-about {
-        padding-top: 80px;
+        padding-top: 0px;
     }
     .text-about h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .about-cheat {
-        font-size: 16px;
+        font-size: 14px;
     }
     .about-cheat h5 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .about-team {
+        padding: 90px 20px 50px 20px;
     }
     .brandFooter footer {
         font-size: 16px;
     }
+    .tyu {
+        font-size: 12px;
+        line-height: 0.5;
+    }
     .rew {
         padding-top: 170px;
+    }
+    .box {
+        height: auto;
+    }
+    .io button {
+        padding: 5px 10px 5px 10px;
+    }
+}
+@media (max-width: 331.98px) {
+    .text-about {
+        padding-top: 20px;
+    }
+    .text-about h4 {
+        font-size: 18px;
+    }
+    .about-cheat {
+        font-size: 14px;
+    }
+    .about-cheat h5 {
+        font-size: 18px;
+    }
+    .about-team {
+        padding: 110px 20px 50px 20px;
+    }
+    .brandFooter footer {
+        font-size: 16px;
+    }
+    .tyu {
+        font-size: 12px;
+        line-height: 0.5;
+    }
+    .rew {
+        padding-top: 170px;
+    }
+    .box {
+        height: auto;
+    }
+    .io button {
+        padding: 5px 10px 5px 10px;
     }
 }

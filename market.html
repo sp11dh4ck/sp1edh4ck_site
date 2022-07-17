@@ -17,48 +17,65 @@
 <body>
 	<div class="wrapper">
 		<header class="p-1 bg-muted text-white box">
-		<div class="container">
-			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end tyu">
-				<a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none brandImage">
-					<img src="images/main img for site.png">
-				</a>
-			
-				<ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html" class="nav-link px-2 text-black">Главная</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/forum.html" class="nav-link px-2 text-black">Форум</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/market.html" class="nav-link px-2 text-muted">Маркет</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/team.html" class="nav-link px-2 text-black">Команда</a></li>
-			  		<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/faq.html" class="nav-link px-2 text-black">FAQ</a></li>
-				</ul>
-			
-				<form class="col-12 col-lg-auto mb-lg-0 me-lg-4 search-cl" role="search">
-			  		<input type="search" class="form-control form-control-light text-white bg-light" placeholder="Поиск..." aria-label="Search">
-				</form>
-		
-				<div class="text-end">
-			  		<button onclick="login()" type="button" class="btn btn-outline-dark me-2">Логин</button>
-					<script>
-						function login(){
-							window.location="sing-in.html";
-						}
-					</script>
+			<div class="container">
+				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end tyu">
+					<a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none brandImage">
+						<img src="images/main img for site.png">
+					</a>
+				
+					<!-- <ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
+						<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html" class="nav-link px-2 text-black">Главная</a></li>
+						<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/forum.html" class="nav-link px-2 text-black">Форум</a></li>
+						<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/market.html" class="nav-link px-2 text-muted">Маркет</a></li>
+						<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/team.html" class="nav-link px-2 text-black">Команда</a></li>
+				  		<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/faq.html" class="nav-link px-2 text-black">FAQ</a></li>
+					</ul> -->
+					<ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
+						<li><a href="index.html" class="nav-link px-2 text-black">Главная</a></li>
+						<li><a href="forum.html" class="nav-link px-2 text-black">Форум</a></li>
+						<li><a href="market.html" class="nav-link px-2 text-muted">Маркет</a></li>
+						<li><a href="team.html" class="nav-link px-2 text-black">Команда</a></li>
+				  		<li><a href="faq.html" class="nav-link px-2 text-black">FAQ</a></li>
+					</ul>
 
-			  		<button onclick="register()" type="button" class="btn btn-outline-dark me-2">Регистрация</button>
-					<script>
-						function register(){
-							window.location="sing-up.html";
-						}
-					</script>
-				</div>
-		  	</div>
-		</div>
+					<form class="col-12 col-lg-auto mb-lg-0 me-lg-4 search-cl" role="search">
+				  		<input type="search" class="form-control form-control-light text-white bg-light" placeholder="Поиск..." aria-label="Search">
+					</form>
+				
+					<div class="text-end io">
+				  		<button onclick="login()" type="button" class="btn btn-outline-dark me-2">Логин</button>
+						<script>
+							function login(){
+								window.location="sing-in.html";
+							}
+						</script>
+
+				  		<button onclick="register()" type="button" class="btn btn-outline-dark me-2">Регистрация</button>
+						<script>
+							function register(){
+								window.location="sing-up.html";
+							}
+						</script>
+					</div>
+			  	</div>
+			</div>
 		</header>
 
 		<div class="container">
 			<div class="about-market">
-				<h4>Маркет <span class="brandColor">speedhack</span></h4>
-				<br>
-				Здесь вы купите всё, что вам нужно!
+				<div class="text-about">
+					<h4>Маркет <span class="brandColor">speedhack</span></h4>
+					<br>
+					Здесь вы купите всё, что вам нужно!
+					<div class="text-start io">
+						<button onclick="login()" type="button" class="btn btn-outline-dark me-2">Купить</button>
+					  	<script>
+						  	function login() {
+							  	window.location="sing-in.html";
+						  	}
+						</script>
+				  </div>
+				</div>
 			</div>
 		</div>
 
