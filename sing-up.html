@@ -65,10 +65,10 @@
                     <label class="custom-control-label" for="customControlValidation1">
                         Я принимаю <a href="politic" target="_blank">пользовательское соглашение</a> и <a href="service-rules" target="_blank">правила сайта</a>
                     </label>
-                    <div class="invalid-feedback">Соглашение с правилами обязательны!</div>
+                    <div class="invalid-feedback io">Соглашение с правилами обязательно!</div>
                 </div>
                 <div class="sign-btn">
-                    <button onclick="register()" class="btn btn-primary sign-btn" type="submit">Зарегистрироваться</button>
+                    <button onclick="valid()" class="btn btn-primary sign-btn" type="submit">Зарегистрироваться</button>
                     <script>        
                         function register(){
                             window.location="sing-in";
@@ -79,7 +79,7 @@
         </div>
 
         <script>
-        (function() {
+        (function valid() {
             'use strict';
             window.addEventListener('load', function() {
                 var forms = document.getElementsByClassName('needs-validation');

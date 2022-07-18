@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0.3em 0.6em;
     border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%); */
     background: linear-gradient(135deg, #cc00ff 20%, #0400ff 70%);
-    -webkit-background-clip: text;
+    -webkit--background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
     border: 3px solid transparent;
@@ -181,6 +181,10 @@ body::-webkit-scrollbar-thumb {
 
 .sign-btn button {
     margin-left: 73px;
+}
+
+.io {
+    margin: 43px;
 }
 
 /* ? PC ? */
@@ -254,6 +258,9 @@ body::-webkit-scrollbar-thumb {
     .sign-btn button {
         margin-left: 60px;
     }
+    .io {
+        margin: 31px;
+    }
 }
 
 /* ? MOBILE ? */
@@ -314,7 +321,7 @@ body::-webkit-scrollbar-thumb {
         width: auto;
     }
     .imageSing img {
-        margin-top: 370px;
+        margin-top: 80px;
     }
     .btn {
         margin-bottom: 30px;
@@ -326,7 +333,7 @@ body::-webkit-scrollbar-thumb {
         margin: auto;
     }
     .io {
-        height: 35px;
+        margin: 0px;
     }
 }
 
@@ -359,6 +366,7 @@ body::-webkit-scrollbar-thumb {
     }
     .io button {
         padding: 5px 10px 5px 10px;
+        height: auto;
     }
     .imageSing img {
         padding-top: 40px;
