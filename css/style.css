@@ -325,6 +325,9 @@ body::-webkit-scrollbar-thumb {
     .sign-btn button {
         margin: auto;
     }
+    .io {
+        height: 35px;
+    }
 }
 
 /* ? HIGH SMALL DISPLAY ? */
