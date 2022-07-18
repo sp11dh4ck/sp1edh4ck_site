@@ -183,9 +183,9 @@ body::-webkit-scrollbar-thumb {
     margin-left: 73px;
 }
 
-.io {
+/* .io {
     margin: 43px;
-}
+} */
 
 /* ? PC ? */
 @media (max-width: 1399.98px) {
@@ -259,7 +259,10 @@ body::-webkit-scrollbar-thumb {
         margin-left: 60px;
     }
     .io {
-        margin: 31px;
+        margin: 0px;
+    }
+    .io button {
+        margin-bottom: 0px;
     }
 }
 
@@ -334,6 +337,9 @@ body::-webkit-scrollbar-thumb {
     }
     .io {
         margin: 0px;
+    }
+    .io button {
+        margin-bottom: 0px;
     }
 }
 
