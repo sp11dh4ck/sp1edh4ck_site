@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-.imageSing {
+.imageSing img {
     width: 120px;
     display: block;
     margin: 0 auto;
@@ -299,8 +299,11 @@ body::-webkit-scrollbar-thumb {
     .frame-rules {
         width: auto;
     }
-    .rew {
-        padding-top: 100px;
+    .imageSing img {
+        margin-top: 370px;
+    }
+    .btn {
+        margin-bottom: 30px;
     }
 }
 
@@ -337,6 +340,12 @@ body::-webkit-scrollbar-thumb {
     .io button {
         padding: 5px 10px 5px 10px;
     }
+    .imageSing img {
+        padding-top: 40px;
+    }
+    .rew {
+        padding: 0;
+    }
 }
 @media (max-width: 331.98px) {
     .text-about {
@@ -369,5 +378,11 @@ body::-webkit-scrollbar-thumb {
     }
     .io button {
         padding: 5px 10px 5px 10px;
+    }
+    .rew {
+        padding: 0;
+    }
+    .imageSing img {
+        padding-top: 60px;
     }
 }
