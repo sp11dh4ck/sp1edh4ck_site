@@ -14,52 +14,48 @@
 </head>
 
 <body>
-	<header class="p-1 bg-muted text-black box">
+	<div class="wrapper">
 		<div class="container">
-			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end">
-				<a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none brandImage">
-					<img src="images/main img for site.png">
-				</a>
-			
-				<!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/index.html" class="nav-link px-2 text-black">Главная</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/forum.html" class="nav-link px-2 text-black">Форум</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/market.html" class="nav-link px-2 text-black">Маркет</a></li>
-					<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/team.html" class="nav-link px-2 text-black">Команда</a></li>
-			  		<li><a href="https://sp11dh4ck.github.io/sp1edh4ck_site/faq.html" class="nav-link px-2 text-muted">FAQ</a></li>
-				</ul> -->
-				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-					<li><a href="index.html" class="nav-link px-2 text-black">Главная</a></li>
-					<li><a href="forum.html" class="nav-link px-2 text-black">Форум</a></li>
-					<li><a href="market.html" class="nav-link px-2 text-black">Маркет</a></li>
-					<li><a href="team.html" class="nav-link px-2 text-black">Команда</a></li>
-			  		<li><a href="faq.html" class="nav-link px-2 text-muted">FAQ</a></li>
-				</ul>
+			<header class="p-1 bg-muted text-black box">
+				<div class="container">
+					<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end">
+						<a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none brandImage">
+							<img src="images/main img for site.png">
+						</a>
+					
+						<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+							<li><a href="index" class="nav-link px-2 text-black">Главная</a></li>
+							<li><a href="forum" class="nav-link px-2 text-black">Форум</a></li>
+							<li><a href="market" class="nav-link px-2 text-black">Маркет</a></li>
+							<li><a href="team" class="nav-link px-2 text-black">Команда</a></li>
+					  		<li><a href="faq" class="nav-link px-2 text-muted">FAQ</a></li>
+						</ul>
+					
+						<form class="col-12 col-lg-2 mb-3 mb-lg-0 me-lg-4" role="search">
+					  		<input type="search" class="form-control form-control-light text-white bg-light" placeholder="Поиск..." aria-label="Search">
+						</form>
+					
+						<div class="text-end io">
+					  		<button onclick="login()" type="button" class="btn btn-outline-dark me-2">Логин</button>
+							<script>
+								function login(){
+									window.location="sing-in";
+								}
+							</script>
 
-				<form class="col-12 col-lg-2 mb-3 mb-lg-0 me-lg-4" role="search">
-			  		<input type="search" class="form-control form-control-light text-white bg-light" placeholder="Поиск..." aria-label="Search">
-				</form>
-		
-				<div class="text-end io">
-			  		<button onclick="login()" type="button" class="btn btn-outline-dark me-2">Логин</button>
-					<script>
-						function login(){
-							window.location="sing-in.html";
-						}
-					</script>
-
-			  		<button onclick="register()" type="button" class="btn btn-outline-dark">Регистрация</button>
-					<script>
-						function register(){
-							window.location="sing-up.html";
-						}
-					</script>
+					  		<button onclick="register()" type="button" class="btn btn-outline-dark">Регистрация</button>
+							<script>
+								function register(){
+									window.location="sing-up";
+								}
+							</script>
+						</div>
+				  	</div>
 				</div>
-		  	</div>
+			</header>
 		</div>
-	</header>
-
-	<div class="preasent-cheat">
+	
+		<div class="preasent-cheat">
 		<div class="frame">
 			<div class="about-cheat">
 				<h5><span class="brandColor">SPEEDHACK</span> инновационый продукт</h5>
@@ -79,15 +75,15 @@
 				Автоматическая синхронизация конфигов в двойном экземпляре, если вы случайно сделали что-то не то с настройками, то вы всё можете вернуть!
 			</div>
 		</div>
-	</div>
-
-	<div class="yt" style="padding-top: 770px;"></div>
-
-	<div class="brandFooter">
+		</div>
+	
+		<div class="yt" style="padding-top: 770px;"></div>
+	
+		<div class="brandFooter">
 		<footer class="bg-light py-3 mb-3">
 			<p class="text-center text-black">&copy; 2022 Company, Inc</p>
 		</footer>
+		</div>
 	</div>
-
 </body>
 </html>
