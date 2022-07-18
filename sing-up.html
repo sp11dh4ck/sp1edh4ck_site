@@ -15,34 +15,40 @@
 </head>
 
 <body class="te">
-    <div class="wrapper">
+    <div class="wrapper justify-content-center">
         <div class="container">
             <form class="needs-validation" novalidate>
                 <a href="index" class="imageSing"><img src="images/main img for site.png"></a><br>
-                <div class="form-row rew">
-                    <div class="form-group col-md-4">
+                <div class="form-row justify-content-center rew">
+                    <div class="form-group col-md-5">
                         <label for="inputEmail4">Почта</label>
                         <input type="email" class="form-control" id="inputEmail4" placeholder="Почта" required>
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-5">
                         <label for="inputPassword4">Пароль</label>
                         <input type="password" class="form-control" id="inputPassword4" placeholder="Пароль" required>
                     </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputPassword4">Подтвердить пароль</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Подтвердить пароль" required>
-                    </div>
                 </div>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="validationCustom01">Имя</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" required>
+
+                <div class="form-row justify-content-center">
+                    <div class="col-md-5">
+                        <label for="validationCustomUsername">Имя и фамилия</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button onclick="function prompt()" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Ваши имя и фамилия не будут отображаться, они потребуются только при восстановлении аккаунта!">
+                                    ?
+                                </button>
+                                <script>
+                                    $(function prompt() {
+                                        $('[data-toggle="popover"]').popover()
+                                    })
+                                </script>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Имя" aria-describedby="inputGroupPrepend" required>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Фамилия" required>
+                        </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationCustom02">Фамилия</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Фамилия" required>
-                    </div>
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-5">
                         <label for="validationCustomUsername">Ник</label>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -52,22 +58,23 @@
                         </div>
                     </div>
                 </div>
-                <small id="emailHelp" class="form-text text-muted">Ваши имя и фамилия не будут отображаться, они потребуются <strong>только</strong> при восстановлении аккаунта!</small>
                 <br>
-                <div class="custom-control custom-checkbox mb-3">
+
+                <div class="custom-control custom-checkbox mb-3 sign-btn">
                     <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
                     <label class="custom-control-label" for="customControlValidation1">
-                        Я принимаю <a href="politic" target="_blank">пользовательское соглашение</a> и <a href="service-rules" target="_blank">правила сервиса</a>
+                        Я принимаю <a href="politic" target="_blank">пользовательское соглашение</a> и <a href="service-rules" target="_blank">правила сайта</a>
                     </label>
-                    <div class="invalid-feedback">Соглашение с правила обязательны!</div>
+                    <div class="invalid-feedback">Соглашение с правилами обязательны!</div>
                 </div>
-                
-                <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
-                <script>
-                    function register(){
-                        window.location="sing-in";
-                    }
-                </script>
+                <div class="sign-btn">
+                    <button onclick="register()" class="btn btn-primary sign-btn" type="submit">Зарегистрироваться</button>
+                    <script>        
+                        function register(){
+                            window.location="sing-in";
+                        }
+                    </script>
+                </div>
             </form>
         </div>
 

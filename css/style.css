@@ -175,6 +175,14 @@ body::-webkit-scrollbar-thumb {
 	height: 7px;
 }
 
+.sign-btn label {
+    margin-left: 73px;
+}
+
+.sign-btn button {
+    margin-left: 73px;
+}
+
 /* ? PC ? */
 @media (max-width: 1399.98px) {
     .frame {
@@ -239,6 +247,12 @@ body::-webkit-scrollbar-thumb {
     }
     .user-agreement hr {
         height: 5px;
+    }
+    .sign-btn label {
+        margin-left: 60px;
+    }
+    .sign-btn button {
+        margin-left: 60px;
     }
 }
 
@@ -305,6 +319,12 @@ body::-webkit-scrollbar-thumb {
     .btn {
         margin-bottom: 30px;
     }
+    .sign-btn label {
+        margin: auto;
+    }
+    .sign-btn button {
+        margin: auto;
+    }
 }
 
 /* ? HIGH SMALL DISPLAY ? */
@@ -330,9 +350,6 @@ body::-webkit-scrollbar-thumb {
     .tyu {
         font-size: 12px;
         line-height: 0.5;
-    }
-    .rew {
-        padding-top: 170px;
     }
     .box {
         height: auto;
@@ -369,9 +386,6 @@ body::-webkit-scrollbar-thumb {
     .tyu {
         font-size: 12px;
         line-height: 0.5;
-    }
-    .rew {
-        padding-top: 170px;
     }
     .box {
         height: auto;
