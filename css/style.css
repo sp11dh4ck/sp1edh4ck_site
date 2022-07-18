@@ -183,6 +183,10 @@ body::-webkit-scrollbar-thumb {
     margin-left: 73px;
 }
 
+.imageSingIn {
+    height: 100px;
+}
+
 /* .io {
     margin: 43px;
 } */
