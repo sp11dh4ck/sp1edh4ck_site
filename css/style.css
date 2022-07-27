@@ -151,12 +151,14 @@ body::-webkit-scrollbar-thumb {
     margin: 0 auto;
 }
 
-.user-agreement {
+.user-agreement,
+.faq-answer {
     background: #ffffff;
     padding: 50px 0px 50px 0px;
 }
 
-.frame-rules {
+.frame-rules,
+.faq-frame {
     background: #e6e6e6;
     width: 1285px;
     padding-top: 20px;
@@ -170,7 +172,8 @@ body::-webkit-scrollbar-thumb {
     padding-left: 10px;
 }
 
-.user-agreement hr {
+.user-agreement hr,
+.faq-answer hr {
 	background-color: black;
 	height: 7px;
 }
@@ -187,9 +190,14 @@ body::-webkit-scrollbar-thumb {
     margin-left: 44px;
 }
 
-/* .io {
-    margin: 43px;
-} */
+.faq-answer {
+    margin-top: 130px;
+    background: #ffffff;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    width: 1265px;
+}
+
 
 /* ? PC ? */
 @media (max-width: 1399.98px) {
