@@ -1,6 +1,6 @@
 body, html {
     background: #ffffff;
-    font: bold 20px 'Acrom', sans-serif;
+    font: 20px 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -24,34 +24,31 @@ body::-webkit-scrollbar-thumb {
     min-height: 100%;
 }
 
-.preasent-cheat {
-    background: #ffffff;
-    padding: 0px 20px 20px 20px;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.box {
+    background: #e6e6e6;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+.text-about {
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
 }
 
 .frame {
     background: #e6e6e6;
     border-radius: 10px;
     width: 1265px;
-}
-
-.about-site {
-    background: #ffffff;
-    padding: 90px 20px 50px 20px;
-}
-
-.about-cheat {
-    color: black;
-    padding: 10px 10px 10px 10px;
-}
-
-.button-head:hover {
-    color:#488bca;
-}
-
-.text-about {
-    color: rgb(0, 0, 0);
-    padding-top: 20px;
 }
 
 .brandColor {
@@ -62,88 +59,15 @@ body::-webkit-scrollbar-thumb {
     width: 80px;
 }
 
-.brandFooter {
-    background: #ffffff;
-    margin-bottom: 0;
-}
-
-.yt {
+/* !--- After deploy ---! */
+.margin-top-footer {
     background: #ffffff;
     padding: 215px;
     color: black;
 }
 
-.box {
-    background: #488bca;
-    background-color: #e6e6e6;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 999999;
-}
-
-.about-forum {
-    background: #ffffff;
-    padding: 90px 20px 50px 20px;
-}
-
-.about-market {
-    background: #ffffff;
-    padding: 90px 20px 50px 20px;
-}
-
-.about-team {
-    background: #ffffff;
-    padding: 120px 20px 50px 20px;
-}
-
-.frame-team {
-    padding-top: 40px;
-}
-
-.te {
-    align-content: center;
+.in-up {
     justify-content: center;
-    flex-wrap: nowrap;
-}
-
-.avatar-team img {
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-}
-
-/* .ter {
-    font-family: 'Rubik One', sans-serif;
-    font-size: 20px;
-    background: #2E2F45;
-    display: table;
-    color: #9185ff;
-    border-radius: 5px;
-    mix-blend-mode: multiply;
-    padding: 5px 10px;
-} */
-
-.ter {
-    /* font-size: 2em;
-    padding: 0.3em 0.6em;
-    border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%); */
-    background: linear-gradient(135deg, #cc00ff 20%, #0400ff 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline;
-    border: 3px solid transparent;
-    border-image-slice: 1;
-}
-
-.frame-team img {
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-}
-
-.frame-team-first img {
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .imageSing img {
@@ -170,13 +94,18 @@ body::-webkit-scrollbar-thumb {
 
 .rules {
     color: black;
-    padding-left: 10px;
+    padding: 0 15px 0 15px;
+}
+
+.rules ul {
+    margin-top: 0;
 }
 
 .user-agreement hr,
 .faq-answer hr {
-	background-color: black;
+	background-color: gray;
 	height: 7px;
+    margin-bottom: 30px;
 }
 
 .sign-btn label {
@@ -191,14 +120,6 @@ body::-webkit-scrollbar-thumb {
     margin-left: 44px;
 }
 
-.faq-answer {
-    margin-top: 130px;
-    background: #ffffff;
-    padding: 0px 20px 20px 20px;
-    border-radius: 10px;
-    width: 1265px;
-}
-
 .row {
     padding-top: 130px;
     padding-left: 20px;
@@ -206,10 +127,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-link {
-    padding-right: 20px;
-    padding-left: 20px;
     text-decoration: none;
     color: black;
+}
+
+.footer-link:hover {
+    color: rgb(109, 109, 109);
 }
 
 /* ? PC ? */
@@ -228,7 +151,7 @@ body::-webkit-scrollbar-thumb {
         padding-top: 90px;
         font-size: 16px;
     }
-    .frame-team-first {
+    .frame-staf-first {
         padding-top: 45px;
         font-size: 16px;
     }
@@ -248,7 +171,7 @@ body::-webkit-scrollbar-thumb {
     .text-about {
         padding-top: 115px;
     }
-    .frame-team-first {
+    .frame-staff-first {
         padding-top: 85px;
         font-size: 16px;
     }
@@ -286,10 +209,10 @@ body::-webkit-scrollbar-thumb {
     .sign-btn div {
         margin-left: 30px;
     }
-    .io {
+    .log-reg {
         margin: 0px;
     }
-    .io button {
+    .log-reg button {
         margin-bottom: 0px;
     }
 }
@@ -299,7 +222,7 @@ body::-webkit-scrollbar-thumb {
     .text-about {
         padding-top: 35px;
     }
-    .frame-team-first {
+    .frame-staff-first {
         padding: 0;
         font-size: 14px;
     }
@@ -336,14 +259,11 @@ body::-webkit-scrollbar-thumb {
         font-size: 14px;
         height: auto;
     }
-    .tyu ul {
+    .header-optimize ul {
         margin: 0;
     }
     .yt {
         padding: 0;
-    }
-    .brandFooter footer {
-        font-size: 16px;
     }
     .frame {
         width: auto;
@@ -366,10 +286,10 @@ body::-webkit-scrollbar-thumb {
     .sign-btn div {
         margin-left: auto;
     }
-    .io {
+    .log-reg {
         margin: 0px;
     }
-    .io button {
+    .log-reg button {
         margin-bottom: 0px;
     }
 }
@@ -388,20 +308,17 @@ body::-webkit-scrollbar-thumb {
     .about-cheat h5 {
         font-size: 18px;
     }
-    .about-team {
+    .about-staff {
         padding: 90px 20px 50px 20px;
     }
-    .brandFooter footer {
-        font-size: 16px;
-    }
-    .tyu {
+    .header-optimize {
         font-size: 12px;
         line-height: 0.5;
     }
     .box {
         height: auto;
     }
-    .io button {
+    .log-reg button {
         padding: 5px 10px 5px 10px;
         height: auto;
     }
@@ -425,20 +342,17 @@ body::-webkit-scrollbar-thumb {
     .about-cheat h5 {
         font-size: 18px;
     }
-    .about-team {
+    .about-staff {
         padding: 110px 20px 50px 20px;
     }
-    .brandFooter footer {
-        font-size: 16px;
-    }
-    .tyu {
+    .header-optimize {
         font-size: 12px;
         line-height: 0.5;
     }
     .box {
         height: auto;
     }
-    .io button {
+    .log-reg button {
         padding: 5px 10px 5px 10px;
     }
     .rew {

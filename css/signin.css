@@ -1,12 +1,12 @@
 html, body {
-  height: 100%;
+  	height: 100%;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  	display: flex;
+  	align-items: center;
+  	padding-top: 40px;
+  	padding-bottom: 40px;
 }
 
 .text-center {
@@ -15,30 +15,30 @@ body {
 }
 
 .text-center label {
-  color: white;
+	color: white;
 }
 
 .form-floating label {
-  color: black;
+    color: black;
 }
 
 .form-signin {
-  max-width: 330px;
-  padding: 12px;
+    max-width: 330px;
+    padding: 12px;
 }
 
 .form-signin .form-floating:focus-within {
-  z-index: 2;
+    z-index: 2;
 }
 
 .form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }

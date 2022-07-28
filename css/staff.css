@@ -1,0 +1,32 @@
+.about-staff {
+    background: #ffffff;
+    padding: 120px 20px 50px 20px;
+}
+
+.avatar-staff img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.frame-staff {
+    padding-top: 40px;
+}
+
+.castom-role {
+    background: linear-gradient(135deg, #cc00ff 20%, #0400ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    border: 3px solid transparent;
+    border-image-slice: 1;
+}
+
+.frame-staff img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.frame-staff-first img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,14 @@
+.footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer hr {
+    background: gray;
+    width: 201px;
+    margin: 0 auto 10px auto;
+}
