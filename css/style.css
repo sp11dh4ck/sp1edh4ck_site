@@ -80,6 +80,7 @@ body::-webkit-scrollbar-thumb {
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 999999;
 }
 
 .about-forum {
@@ -198,6 +199,11 @@ body::-webkit-scrollbar-thumb {
     width: 1265px;
 }
 
+.row {
+    padding-top: 130px;
+    padding-left: 20px;
+    z-index: 50px;
+}
 
 /* ? PC ? */
 @media (max-width: 1399.98px) {
