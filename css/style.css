@@ -60,6 +60,7 @@ body::-webkit-scrollbar-thumb {
 
 .in-up {
     justify-content: center;
+    background: #1e2025;
 }
 
 .imageSing img {
