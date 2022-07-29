@@ -1,4 +1,5 @@
 .footer {
+    min-height: 100%;
     justify-content: center;
     text-align: center;
     background: #1e2025;
