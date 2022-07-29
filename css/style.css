@@ -67,25 +67,25 @@ body::-webkit-scrollbar-thumb {
     margin: 0 auto;
 }
 
-.user-agreement,
+.user-agreement_con,
 .faq-answer {
-    background: #ffffff;
-    padding: 50px 0px 50px 0px;
+    background: #1e2025;
+    padding: 30px 0px 30px 0px;
 }
 
 .frame-rules,
 .faq-frame {
-    background: #e6e6e6;
+    color: #ffffff;
+    background: #17181b;
     width: 1285px;
-    padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 10px;
     line-height: 1.5;
 }
 
 .rules {
-    color: black;
-    padding: 0 15px 0 15px;
+    color: #ffffff;
+    padding: 15px 20px 0 20px;
 }
 
 .rules ul {
@@ -116,6 +116,8 @@ body::-webkit-scrollbar-thumb {
     padding-left: 20px;
     z-index: 50px;
 }
+
+
 
 /* ? PC ? */
 @media (max-width: 1399.98px) {
