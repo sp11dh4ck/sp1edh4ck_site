@@ -24,7 +24,7 @@
 .menu_item {
 	font-family: 'Acrom', sans-serif;
 	font-size: 14px;
-	color: rgb(255, 0, 0);
+	color: #ff506f;
 	padding-right: 30px;
 }
 
@@ -36,7 +36,7 @@
 
 .menu_link:hover {
 	/* color: rgb(134, 134, 134); */
-	color: #ff4444;
+	color: #ff506f;
 }
 
 .header_logreg {
@@ -47,15 +47,15 @@
 	font-size: 14px;
     font-family: "Acrom", sans-serif;
 	padding: 5px 10px;
-	color: #ff4444;
+	color: #ff506f;
 	background: #1e2025;
 	border: 1px solid;
-	border-color: #ff4444;
+	border-color: #ff506f;
 	border-radius: 4px;
 	transition: background 0.5s ease 0s;
 }
 
 .button:hover {
 	color: white;
-	background: #ff4444;
+	background: #ff506f;
 }

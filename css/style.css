@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #ff4444;
+    background: #ff506f;
 }
 
 .wrapper {
@@ -50,7 +50,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .brandColor {
-    color: #ff4444;
+    /* color: #ff4444; */
+    color: #ff506f;
 }
 
 .brandLogo {
@@ -116,8 +117,6 @@ body::-webkit-scrollbar-thumb {
     padding-left: 20px;
     z-index: 50px;
 }
-
-
 
 /* ? PC ? */
 @media (max-width: 1399.98px) {
