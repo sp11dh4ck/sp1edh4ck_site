@@ -1,6 +1,7 @@
 .footer {
     justify-content: center;
     text-align: center;
+    background: #1e2025;
 }
 
 .footer ul {
@@ -8,7 +9,16 @@
 }
 
 .footer hr {
-    background: gray;
     width: 201px;
     margin: 0 auto 10px auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease 0s;
+}
+
+.footer-link:hover {
+    color: #ff4444;
 }

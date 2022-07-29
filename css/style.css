@@ -1,6 +1,9 @@
 body, html {
-    background: #ffffff;
-    font: 20px 'Roboto', sans-serif;
+    background: #1e2025;
+    font-family: 'Acrom', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -13,57 +16,45 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #495eff;
+    background: #ff4444;
 }
 
 .wrapper {
-    background: #ffffff;
-    overflow: hidden;
+    background: #1e2025;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+.main {
+    flex: 1;
 }
 
-.box {
-    background: #e6e6e6;
-    position: fixed;
-    width: 100%;
-    z-index: 999999;
+[class*="_con"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .text-about {
-    color: rgb(0, 0, 0);
-    padding-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 0 80px 0;
 }
 
 .frame {
-    background: #e6e6e6;
+    background: #17181b;
     border-radius: 10px;
-    width: 1265px;
+    width: 1200px;
 }
 
 .brandColor {
-    color: #006fff;
+    color: #ff4444;
 }
 
-.brandImage img {
-    width: 80px;
-}
-
-/* !--- After deploy ---! */
-.margin-top-footer {
-    background: #ffffff;
-    padding: 215px;
-    color: black;
+.brandLogo {
+    width: 35px;
 }
 
 .in-up {
@@ -126,15 +117,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 50px;
 }
 
-.footer-link {
-    text-decoration: none;
-    color: black;
-}
-
-.footer-link:hover {
-    color: rgb(109, 109, 109);
-}
-
 /* ? PC ? */
 @media (max-width: 1399.98px) {
     .frame {
@@ -181,7 +163,7 @@ body::-webkit-scrollbar-thumb {
     .search-cl input {
         margin-bottom: 10px;
     }
-    .brandImage img {
+    .brandLogo img {
         display: none;
     }
     .frame {
@@ -243,7 +225,7 @@ body::-webkit-scrollbar-thumb {
     .about-cheat h5 {
         font-size: 20px;
     }
-    .brandImage img {
+    .brandLogo img {
         display: none;
     }
     .search-cl input {
