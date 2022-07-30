@@ -17,11 +17,10 @@
                 <form action="sign-in">
                     <a href="index" class="imageSign"><img src="images/Logo-pink.png"></a>
                     <label class="text-field__label">Регистрация</label>
-                    <input class="text-field__input" type="text" name="login" id="login" placeholder="Enter login">
-                    <input class="text-field__input" type="email" name="email" id="email" placeholder="Enter email">
+                    <input class="text-field__input" type="text" name="login" id="login" placeholder="Enter login" required>
+                    <input class="text-field__input" type="email" name="email" id="email" placeholder="Enter email" required>
                     <input class="text-field__input" type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}" title="Пароль должен содержать заглавную и маленькую латинскую букву, цифру и быть более 12 символов" placeholder="Enter password" required>
-                    <input class="text-field__input" type="password" name="confirmPassword" id="confirmPassword" placeholder="Repeat password">
-                    <!-- <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}" title="Пароль должен содержать заглавную и маленькую латинскую букву, цифру и быть более 12 символов" required> -->
+                    <input class="text-field__input" type="password" name="confirmPassword" id="confirmPassword" placeholder="Repeat password" required>
 
                     <div class="help">
                         <a class="help-a" href="sing-up">Есть аккаунт? Войти</a>
@@ -30,7 +29,7 @@
                     <!-- <form style="transform:scale(0.91); transform-origin:0 0; margin-top: 10px;" action="?" method="POST">
                     <div class="g-recaptcha" data-sitekey="6LfyOP8gAAAAAC1YN5zW-Uxt-LKhKoXNFSO4_1LI"></div>
                 </form> -->
-                    <input class="button" name="submit" type="submit" id="submit"></input>
+                    <button class="button" name="submit" type="submit" id="submit">Зарегистрироваться</button>
 
                     <span style="color: #ffffff; font-size: 12px;">Вы автоматически соглашаетесь с <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="politic" target="_blank">пользовательским
                     соглашением</a> и <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="service-rules" target="_blank">правилами сайта</a></span>    
