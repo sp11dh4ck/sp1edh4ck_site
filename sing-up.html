@@ -4,40 +4,39 @@
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>sp sing up</title>
+    <title>speedhack sing up</title>
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/headers.css">
     <link rel="stylesheet" href="css/signup.css">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
-<body class="in-up">
+<body>
     <div class="wrapper">
         <div class="main">
             <div class="text-field">
-                <a href="index" class="imageSign"><img src="images/Logo-pink.png"></a>
-                <!-- <a href="/index.html" class="imageSign"><img src="images/Logo-pink.png"></a> -->
-                <label class="text-field__label">Регистрация</label>
-                <input class="text-field__input" type="email" name="email" id="email" placeholder="Enter email">
-                <input class="text-field__input" type="text" name="username" id="username" placeholder="Enter login">
-                <input class="text-field__input" type="password" name="password" id="password" placeholder="Enter password">
-                <input class="text-field__input" type="password" name="confirmPassword" id="confirmPassword" placeholder="Repeat password">
-
-                <div class="help">
-                    <a class="help-a" href="sing-up">Есть аккаунт? Войти</a>
-                    <!-- <a class="help-a" href="/sing-up.html">Есть аккаунт? Войти</a> -->
-                </div>
-
-                <form style="transform:scale(0.91); transform-origin:0 0; margin-top: 10px;" action="?" method="POST">
-                    <div class="g-recaptcha" data-sitekey="6LfyOP8gAAAAAC1YN5zW-Uxt-LKhKoXNFSO4_1LI"></div>
+                <form method="POST">
+                    <a href="index" class="imageSign"><img src="images/Logo-pink.png"></a>
+                    <label class="text-field__label">Регистрация</label>
+                    <input class="text-field__input" type="text" name="login" id="login" placeholder="Enter login">
+                    <input class="text-field__input" type="email" name="email" id="email" placeholder="Enter email">
+                    <input class="text-field__input" type="password" name="password" id="password" placeholder="Enter password">
+                    <input class="text-field__input" type="password" name="confirmPassword" id="confirmPassword" placeholder="Repeat password">
+                    <div class="help">
+                        <a class="help-a" href="sing-up">Есть аккаунт? Войти</a>
+                    </div>
+                    <!-- <form style="transform:scale(0.91); transform-origin:0 0; margin-top: 10px;" action="?" method="POST">
+                        <div class="g-recaptcha" data-sitekey="6LfyOP8gAAAAAC1YN5zW-Uxt-LKhKoXNFSO4_1LI"></div>
+                    </form> -->
+                    <span style="color: #ffffff; font-size: 12px;">Вы автоматически соглашаетесь с <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="politic" target="_blank">пользовательским
+                    соглашением</a> и <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="service-rules" target="_blank">правилами сайта</a></span>
+                    <input class="button" name="submit" type="submit" id="submit">Зарегистрироваться</input>
                 </form>
-
-                <span style="color: #ffffff; font-size: 12px;">Вы автоматически соглашаетесь с <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="politic" target="_blank">пользовательским
-                соглашением</a> и <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="service-rules" target="_blank">правилами сайта</a></span>
-                
-                <button class="button" type="submit">Зарегистрироваться</button>
             </div>
         </div>
     </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/register.js"></script>
 </body>
 </html>
