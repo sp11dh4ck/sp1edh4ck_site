@@ -35,10 +35,17 @@
     box-shadow: 0 0 0 2px #ff506f;
 }
 
+.imageSign img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .text-field__label {
     color: #ffffff;
     font-size: 20px;
-    width: 50.67px;
+    width: 130px;
     display: block;
     margin: 0 auto;
 }
@@ -51,13 +58,6 @@
     margin-right: auto;
     margin-bottom: auto;
     padding: 15px;
-}
-
-.imageSign img {
-    width: 60px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 .help {

@@ -46,7 +46,6 @@ body::-webkit-scrollbar-thumb {
 .frame {
     background: #17181b;
     border-radius: 10px;
-    width: 1200px;
 }
 
 .brandColor {
@@ -56,11 +55,6 @@ body::-webkit-scrollbar-thumb {
 
 .brandLogo {
     width: 35px;
-}
-
-.in-up {
-    justify-content: center;
-    background: #1e2025;
 }
 
 .imageSing img {
