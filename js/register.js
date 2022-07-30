@@ -1,31 +1,49 @@
-document.querySelector('#submit').onclick = function (event) {
-    event.preventDefault();
-    console.log('work')
+document.getElementById("submit").onclick = function() {
+    var password = document.getElementById("password");
+    var confirmPassword = document.getElementById("confirmPassword");
+    var letter = document.getElementById("letter");
+    var capital = document.getElementById("capital");
+    var number = document.getElementById("number");
+    var length = document.getElementById("length");
 
-    let name = document.querySelector('#login').value;
-    let email = document.querySelector('#email').value;
-    let password = document.querySelector('#password').value;
-    let confirmPassword = document.querySelector('#confirmPassword').value;
-    
-    let data = {
-        "name": name,
-        "email": email,
-        "password": password,
-        "confirmPassaword": confirmPassword,
-    }
-
-    ajax('core/signup.php', 'post', login, data)
-
-    function login(result) {
-        console.log(result);
-        if (result == 2) {
-            alert('Вы ввели не все данные!');
-        }
-        else if (result == 1) {
-            alert('Регистрация прошла успешно!')
+    password.onkeyup = function() {
+        var lowerCaseLetters = /[a-z]/g;
+        if (password.value.match(lowerCaseLetters)) {
+            letter.classList.remove("invalid");
+            letter.classList.add("valid");
         }
         else {
-            alert('Ошибка! Попробуйте ещё раз.')
+            letter.classList.remove("valid");
+            letter.classList.add("invalid");
+        }
+
+        var upperCaseLetters = /[A-Z]/g;
+        if (password.value.match(upperCaseLetters)) {
+            capital.classList.remove("invalid");
+            capital.classList.add("valid");
+        }
+        else {
+            capital.classList.remove("valid");
+            capital.classList.add("invalid");
+        }
+
+        var numbers = /[0-9]/g;
+        if (password.value.match(numbers)) {
+            number.classList.remove("invalid");
+            number.classList.add("valid");
+        }
+        else {
+            number.classList.remove("valid");
+            number.classList.add("invalid");
+        }
+
+        if (password.value.length >= 12) {
+            length.classList.remove("invalid");
+            length.classList.add("valid");
+        }
+        else {
+            length.classList.remove("valid");
+            length.classList.add("invalid");
         }
     }
-}
+};

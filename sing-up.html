@@ -8,35 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/headers.css">
     <link rel="stylesheet" href="css/signup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="main">
             <div class="text-field">
-                <form method="POST">
+                <form action="sign-in">
                     <a href="index" class="imageSign"><img src="images/Logo-pink.png"></a>
                     <label class="text-field__label">Регистрация</label>
                     <input class="text-field__input" type="text" name="login" id="login" placeholder="Enter login">
                     <input class="text-field__input" type="email" name="email" id="email" placeholder="Enter email">
-                    <input class="text-field__input" type="password" name="password" id="password" placeholder="Enter password">
+                    <input class="text-field__input" type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}" title="Пароль должен содержать заглавную и маленькую латинскую букву, цифру и быть более 12 символов" placeholder="Enter password" required>
                     <input class="text-field__input" type="password" name="confirmPassword" id="confirmPassword" placeholder="Repeat password">
+                    <!-- <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}" title="Пароль должен содержать заглавную и маленькую латинскую букву, цифру и быть более 12 символов" required> -->
+
                     <div class="help">
                         <a class="help-a" href="sing-up">Есть аккаунт? Войти</a>
                     </div>
+
                     <!-- <form style="transform:scale(0.91); transform-origin:0 0; margin-top: 10px;" action="?" method="POST">
-                        <div class="g-recaptcha" data-sitekey="6LfyOP8gAAAAAC1YN5zW-Uxt-LKhKoXNFSO4_1LI"></div>
-                    </form> -->
+                    <div class="g-recaptcha" data-sitekey="6LfyOP8gAAAAAC1YN5zW-Uxt-LKhKoXNFSO4_1LI"></div>
+                </form> -->
+                    <input class="button" name="submit" type="submit" id="submit"></input>
+
                     <span style="color: #ffffff; font-size: 12px;">Вы автоматически соглашаетесь с <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="politic" target="_blank">пользовательским
-                    соглашением</a> и <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="service-rules" target="_blank">правилами сайта</a></span>
-                    <input class="button" name="submit" type="submit" id="submit">Зарегистрироваться</input>
+                    соглашением</a> и <a class="help-a" style="text-decoration: underline; font-size: 12px;" href="service-rules" target="_blank">правилами сайта</a></span>    
                 </form>
             </div>
         </div>
     </div>
-    <script src="js/ajax.js"></script>
-    <script src="js/register.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
 </body>
 </html>
