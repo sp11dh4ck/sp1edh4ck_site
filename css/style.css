@@ -272,6 +272,7 @@ body::-webkit-scrollbar-thumb {
         left: -100%;
         width: 180px;
         border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         background: #17181b;
         z-index: 100;
         display: flex;
