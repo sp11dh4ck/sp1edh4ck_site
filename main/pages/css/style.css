@@ -1,0 +1,342 @@
+body, html {
+    background: #1e2025;
+    font-family: 'Acrom', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ff506f;
+}
+
+.wrapper {
+    background: #1e2025;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+[class*="_con"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.text-about {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 0 80px 0;
+}
+
+.frame {
+    background: #17181b;
+    border-radius: 10px;
+}
+
+.brandColor {
+    /* color: #ff4444; */
+    color: #ff506f;
+}
+
+.brandLogo {
+    width: 35px;
+}
+
+.imageSing img {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.user-agreement_con,
+.faq-answer {
+    background: #1e2025;
+    padding: 30px 0px 30px 0px;
+}
+
+.frame-rules,
+.faq-frame {
+    color: #ffffff;
+    background: #17181b;
+    width: 1285px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.rules {
+    color: #ffffff;
+    padding: 15px 20px 0 20px;
+}
+
+.rules ul {
+    margin-top: 0;
+}
+
+.user-agreement hr,
+.faq-answer hr {
+	background-color: gray;
+	height: 7px;
+    margin-bottom: 30px;
+}
+
+.sign-btn label {
+    margin-left: 74px;
+}
+
+.sign-btn button {
+    margin-left: 74px;
+}
+
+.sign-btn div {
+    margin-left: 44px;
+}
+
+.row {
+    padding-top: 130px;
+    padding-left: 20px;
+    z-index: 50px;
+}
+
+/* ? PC ? */
+@media (max-width: 1399.98px) {
+    .frame {
+        width: 1085px;
+    }
+    .frame-rules {
+        width: auto;
+    }
+}
+
+/* ? PC MIN ? */
+@media (max-width: 1199.98px) {
+    .text-about {
+        padding-top: 90px;
+        font-size: 16px;
+    }
+    .frame-staf-first {
+        padding-top: 45px;
+        font-size: 16px;
+    }
+    .box {
+        height: auto;
+    }
+    .frame {
+        width: 900px;
+    }
+    .frame-rules {
+        width: auto;
+    }
+}
+
+/* ? TABLET ? */
+@media (max-width: 991.98px) {
+    .text-about {
+        padding-top: 115px;
+    }
+    .frame-staff-first {
+        padding-top: 85px;
+        font-size: 16px;
+    }
+    .box {
+        height: auto;
+    }
+    .search-cl input {
+        margin-bottom: 10px;
+    }
+    .brandLogo img {
+        display: none;
+    }
+    .frame {
+        width: 677px;
+    }
+    .rules {
+        width: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    .user-agreement {
+        font-size: 12px;
+    }
+    .user-agreement h5 {
+        font-size: 13px;
+    }
+    .user-agreement hr {
+        height: 5px;
+    }
+    .sign-btn label {
+        margin-left: 60px;
+    }
+    .sign-btn button {
+        margin-left: 60px;
+    }
+    .sign-btn div {
+        margin-left: 30px;
+    }
+    .log-reg {
+        margin: 0px;
+    }
+    .log-reg button {
+        margin-bottom: 0px;
+    }
+}
+
+/* ? MOBILE ? */
+@media (max-width: 767.98px) {
+    .text-about {
+        padding-top: 35px;
+    }
+    .frame-staff-first {
+        padding: 0;
+        font-size: 14px;
+    }
+    .about-team h5 {
+        font-size: 16px;
+    }
+    .about-team img {
+        width: 70px;
+        height: 70px;
+    }
+    .text-about h4 {
+        font-size: 20px;
+    }
+    .about-cheat {
+        font-size: 16px;
+        text-align: center;
+    }
+    .about-cheat h5 {
+        font-size: 20px;
+    }
+    .brandLogo img {
+        display: none;
+    }
+    .search-cl input {
+        display: none;
+    }
+    .text-end button {
+        font-size: 12px;
+    }
+    .text-end input {
+        font-size: 12px;
+    }
+    .box {
+        font-size: 14px;
+        height: auto;
+    }
+    .header-optimize ul {
+        margin: 0;
+    }
+    .yt {
+        padding: 0;
+    }
+    .frame {
+        width: auto;
+    }
+    .frame-rules {
+        width: auto;
+    }
+    .imageSing img {
+        margin-top: 80px;
+    }
+    .btn {
+        margin-bottom: 30px;
+    }
+    .sign-btn label {
+        margin: auto;
+    }
+    .sign-btn button {
+        margin: auto;
+    }
+    .sign-btn div {
+        margin-left: auto;
+    }
+    .log-reg {
+        margin: 0px;
+    }
+    .log-reg button {
+        margin-bottom: 0px;
+    }
+}
+
+/* ? HIGH SMALL DISPLAY ? */
+@media (max-width: 363.98px) {
+    .text-about {
+        padding-top: 0px;
+    }
+    .text-about h4 {
+        font-size: 18px;
+    }
+    .about-cheat {
+        font-size: 14px;
+    }
+    .about-cheat h5 {
+        font-size: 18px;
+    }
+    .about-staff {
+        padding: 90px 20px 50px 20px;
+    }
+    .header-optimize {
+        font-size: 12px;
+        line-height: 0.5;
+    }
+    .box {
+        height: auto;
+    }
+    .log-reg button {
+        padding: 5px 10px 5px 10px;
+        height: auto;
+    }
+    .imageSing img {
+        padding-top: 40px;
+    }
+    .rew {
+        padding: 0;
+    }
+}
+@media (max-width: 331.98px) {
+    .text-about {
+        padding-top: 20px;
+    }
+    .text-about h4 {
+        font-size: 18px;
+    }
+    .about-cheat {
+        font-size: 14px;
+    }
+    .about-cheat h5 {
+        font-size: 18px;
+    }
+    .about-staff {
+        padding: 110px 20px 50px 20px;
+    }
+    .header-optimize {
+        font-size: 12px;
+        line-height: 0.5;
+    }
+    .box {
+        height: auto;
+    }
+    .log-reg button {
+        padding: 5px 10px 5px 10px;
+    }
+    .rew {
+        padding: 0;
+    }
+    .imageSing img {
+        padding-top: 60px;
+    }
+}

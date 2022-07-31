@@ -1,0 +1,61 @@
+.header {
+	background: #1e2025;
+	padding: 10px 0px;
+}
+
+.header_con {
+	display: flex;
+	align-items: center;
+}
+
+.brandLogo img {
+	width: 35px;
+}
+
+.header_menu {
+	flex: 1 1 auto;
+}
+
+.menu_list {
+	list-style-type: none;
+	display: flex;
+}
+
+.menu_item {
+	font-family: 'Acrom', sans-serif;
+	font-size: 14px;
+	color: #ff506f;
+	padding-right: 30px;
+}
+
+.menu_link {
+	text-decoration: none;
+	color: #ffffff;
+	transition: color 0.5s ease 0s;
+}
+
+.menu_link:hover {
+	/* color: rgb(134, 134, 134); */
+	color: #ff506f;
+}
+
+.header_logreg {
+	flex: 0 0 220px;
+}
+
+.button {
+	font-size: 14px;
+    font-family: "Acrom", sans-serif;
+	padding: 5px 10px;
+	color: #ff506f;
+	background: #1e2025;
+	border: 1px solid;
+	border-color: #ff506f;
+	border-radius: 4px;
+	transition: background 0.5s ease 0s;
+}
+
+.button:hover {
+	color: white;
+	background: #ff506f;
+}
