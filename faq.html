@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>speedhack faq</title>
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/faq.css">
 	<link rel="stylesheet" href="css/headers.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,13 +122,43 @@
 			</ul>
 		</div> -->
 		<div class="main">
-			Content
-			
-			<div id="vk_community_messages">
-				<script type="text/javascript">
-					VK.Widgets.CommunityMessages("vk_community_messages", 207447269, {tooltipButtonText: "Поддержка", disableExpandChatSound: 1, disableNewMessagesSound: 1});
-				</script>
+			<div class="faq_con">
+				<div class="button-group">
+					<button class="button-list" style="border-top-left-radius: 5px; border-top-right-radius: 5px;" type="button">Технические вопросы</button>
+					<button onclick="faqRang()" class="button-list" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;" type="button">Ранги и рейтинг</button>
+					<script>
+						function faqRang(){
+							window.location="faq/faq-rang";
+						}
+					</script>
+				</div>
+				<div class="faq-tech-ques">
+					1. Не работают кнопки на сайте (вход, регистрация, купить, продать и т.д.)<br>
+					<ul>
+						<li style="list-style-type: none;">
+							<span class="faq-tech-answer"><strong>Ответ:</strong> попробуйте отключить блокировщик рекламы, или включить использование JavaScript'ов в браузере, или попробуйте зайти с другого браузера, или отключите антивирус (он может блокировать работу сайта по неизвестным причинам), в ином случае обратитесь к <a class="faq-link" href="https://t.me/ababomSUIIIIIIIIIIIIIIIIII" target="_blank">Гл. Администратору</a> или <a class="faq-link" href="https://t.me/sp1edh4ck" target="_blank">Создателю</a>.</span><br><br>
+						</li>
+					</ul>
+					2. Поломался сайт (не открывается, медленно работает, появляется ошибка 404 или 500)<br>
+					<ul>
+						<li style="list-style-type: none;">
+							<span class="faq-tech-answer"><strong>Ответ:</strong> попробуйте подождать (сайт может быть перегружен, сервер может быть отключен, могут вестись тех. работы на сайте), или проверьте подключение в сети, или попробуйте отключить все программы на пк.</span><br><br>
+						</li>
+					</ul>
+					3. Некорректное отображение сайта (вместо картинок символы, сбился шрифт, поломалась структура сайта, загрузилась не вся страница).<br>
+					<ul>
+						<li style="list-style-type: none;">
+							<span class="faq-tech-answer"><strong>Ответ:</strong> перезапустите вкладку с сайтом, или перезагрузите браузер, или перезагрузите пк, или, если проблема не исчезла, сделайте скриншот и отправьте его <a class="faq-link" href="https://t.me/ababomSUIIIIIIIIIIIIIIIIII" target="_blank">Гл. Администратору</a> или <a class="faq-link" href="https://t.me/sp1edh4ck" target="_blank">Создателю</a>.</span><br><br>
+						</li>
+					</ul>
+				</div>
 			</div>
+		</div>
+
+		<div id="vk_community_messages">
+			<script type="text/javascript">
+				VK.Widgets.CommunityMessages("vk_community_messages", 207447269, {tooltipButtonText: "Поддержка", disableExpandChatSound: 1, disableNewMessagesSound: 1});
+			</script>
 		</div>
 
 		<footer class="footer">
