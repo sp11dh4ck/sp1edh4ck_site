@@ -123,6 +123,27 @@ body::-webkit-scrollbar-thumb {
         max-width: 1000px;
         margin: 0 auto;
     }
+    .about-forum_con {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .about-market_con {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .about-staff_con {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .avatar-staff {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .main {
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
     .frame {
         max-width: 1000px;
         margin: 0 auto;
@@ -139,6 +160,32 @@ body::-webkit-scrollbar-thumb {
         max-width: 800px;
         margin: 0 auto;
     }
+    .about-forum_con {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .about-market_con {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .about-staff_con {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .avatar-staff {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .main {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .button-list {
+        font-size: 13px;
+        width: 185px;
+        padding: 7px 15px;
+    }
     .frame {
         max-width: 800px;
         margin: 0 auto;
@@ -154,6 +201,40 @@ body::-webkit-scrollbar-thumb {
     .about-site_con {
         max-width: 600px;
         margin: 0 auto;
+    }
+    .about-forum_con {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .about-market_con {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .about-staff_con {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .about-staff_con h4 {
+        font-size: 14px;
+    }
+    .avatar-staff img {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 90px;
+    }
+    .main {
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .faq_con {
+        font-size: 14px;
+    }
+    .button-list {
+        font-size: 12px;
+        width: 165px;
+        padding: 5px 12px;
     }
     .frame {
         max-width: 600px;
@@ -232,6 +313,46 @@ body::-webkit-scrollbar-thumb {
         max-width: 400px;
         margin: 0 auto;
     }
+    .about-forum_con {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .about-market_con {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .about-staff_con {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .about-staff_con h4 {
+        font-size: 14px;
+    }
+    .avatar-staff img {
+        width: 80px;
+        height: 80px;
+        border-radius: 90px;
+    }
+    .main {
+        margin-top: 30px;
+    }
+    .faq_con {
+        font-size: 12px;
+        display: block;
+        justify-content: center;
+    }
+    .button-list {
+        font-size: 14px;
+        width: 200px;
+        padding: 7px 15px;
+        margin: 0 auto;
+        display: block;
+    }
+    .faq-tech-ques {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
     .frame {
         max-width: 400px;
         margin: 0 auto;
@@ -298,6 +419,19 @@ body::-webkit-scrollbar-thumb {
     .hamb_field.active .bar:nth-child(3) {
         transform: translateY(-5px) rotate(-45deg);
     }
+    .footer {
+        font-size: 14px;
+    }
+    .footer hr {
+        max-width: 170px;
+        margin: 0 auto 10px auto;
+    }
+    .text-about {
+        font-size: 14px;
+    }
+    .about-cheat h5 {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -309,6 +443,46 @@ body::-webkit-scrollbar-thumb {
     .about-site_con {
         max-width: 300px;
         margin: 0 auto;
+    }
+    .about-forum_con {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .about-market_con {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .about-staff_con {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .about-staff_con h4 {
+        font-size: 12px;
+    }
+    .avatar-staff img {
+        width: 60px;
+        height: 60px;
+        border-radius: 90px;
+    }
+    .main {
+        margin-top: 30px;
+    }
+    .faq_con {
+        font-size: 12px;
+        display: block;
+        justify-content: center;
+    }
+    .button-list {
+        font-size: 12px;
+        width: 170px;
+        padding: 5px 13px;
+        margin: 0 auto;
+        display: block;
+    }
+    .faq-tech-ques {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
     }
     .frame {
         max-width: 300px;
@@ -328,16 +502,16 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
     }
     .hamb_field {
-        padding: 5px 10px;
+        padding: 3px 8px;
         cursor: pointer;
-        border: 2px solid;
+        border: 1px solid;
         border-radius: 10px;
         border-color: #ffffff;
     }
     .bar {
         display: block;
-        width: 20px;
-        height: 2px;
+        width: 14px;
+        height: 1px;
         margin: 3px auto;
         border-radius: 90px;
         background: #ffffff;
@@ -348,7 +522,7 @@ body::-webkit-scrollbar-thumb {
         position: fixed;
         top: 50px;
         left: -100%;
-        width: 180px;
+        width: 145px;
         border-top-right-radius: 10px;
         background: #17181b;
         z-index: 100;
@@ -362,7 +536,7 @@ body::-webkit-scrollbar-thumb {
         display: block;
     }
     .popup .menu_item {
-        font-size: 18px;
+        font-size: 12px;
         line-height: 2.5;
         text-align: center;
     }
@@ -370,22 +544,26 @@ body::-webkit-scrollbar-thumb {
         opacity: 0;
     }
     .hamb_field.active .bar:nth-child(1) {
-        transform: translateY(5px) rotate(45deg);
+        transform: translateY(4px) rotate(45deg);
     }
     .hamb_field.active .bar:nth-child(3) {
-        transform: translateY(-5px) rotate(-45deg);
+        transform: translateY(-4px) rotate(-45deg);
     }
     .footer {
-        font-size: 14px;
+        font-size: 12px;
     }
     .footer hr {
-        max-width: 170px;
+        max-width: 140px;
         margin: 0 auto 10px auto;
     }
     .text-about {
-        font-size: 14px;
+        font-size: 12px;
     }
     .about-cheat h5 {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .header_logreg button {
+        font-size: 12px;
+        padding: 3px 8px;
     }
 }
