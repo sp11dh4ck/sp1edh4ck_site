@@ -116,7 +116,6 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 1250px) {
     .header_con {
         max-width: 1000px;
-        margin: 0 auto;
         display: flex;
     }
     .about-site_con {
@@ -139,10 +138,11 @@ body::-webkit-scrollbar-thumb {
         max-width: 1000px;
         margin: 0 auto;
     }
-    .main {
+    .faq_con {
         max-width: 1000px;
-        margin: 0 auto;
-        margin-top: 30px;
+    }
+    .main {
+        min-width: 1000px;
     }
     .frame {
         max-width: 1000px;
@@ -172,14 +172,11 @@ body::-webkit-scrollbar-thumb {
         max-width: 800px;
         margin: 0 auto;
     }
-    .avatar-staff {
+    .faq_con {
         max-width: 800px;
-        margin: 0 auto;
     }
     .main {
-        max-width: 800px;
-        margin: 0 auto;
-        margin-top: 30px;
+        min-width: 800px;
     }
     .button-list {
         font-size: 13px;
@@ -224,11 +221,10 @@ body::-webkit-scrollbar-thumb {
         border-radius: 90px;
     }
     .main {
-        max-width: 600px;
-        margin: 0 auto;
-        margin-top: 30px;
+        min-width: 600px;
     }
     .faq_con {
+        max-width: 600px;
         font-size: 14px;
     }
     .button-list {
@@ -334,9 +330,10 @@ body::-webkit-scrollbar-thumb {
         border-radius: 90px;
     }
     .main {
-        margin-top: 30px;
+        min-width: 400px;
     }
     .faq_con {
+        max-width: 400px;
         font-size: 12px;
         display: block;
         justify-content: center;
@@ -465,9 +462,10 @@ body::-webkit-scrollbar-thumb {
         border-radius: 90px;
     }
     .main {
-        margin-top: 30px;
+        min-width: 300px;
     }
     .faq_con {
+        max-width: 300px;
         font-size: 12px;
         display: block;
         justify-content: center;
