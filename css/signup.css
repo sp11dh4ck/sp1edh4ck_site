@@ -90,7 +90,7 @@
     opacity: 0;
 }
 
-.checkbox+label::before {
+.checkbox:not(:disabled)+label::before {
     content: '';
     display: inline-block;
     width: 12px;
