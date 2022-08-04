@@ -19,3 +19,7 @@
 .text-about-link:hover {
     color: #ff506f;
 }
+
+.frame {
+    width: 1200px;
+}
