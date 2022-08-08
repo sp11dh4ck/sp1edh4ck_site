@@ -113,22 +113,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 50px;
 }
 
-.button-clicked {
-    cursor: pointer;
-    font-size: 14px;
-    font-family: "Acrom", sans-serif;
-	padding: 5px 10px;
-	color: #ffffff;
-	background: #ff506f;
-	border: 1px solid;
-	border-color: #ff506f;
-	border-radius: 4px;
-    width: 276px;
-    margin-top: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 @media (max-width: 1250px) {
     .header_con {
         max-width: 1000px;
